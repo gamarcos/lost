@@ -1,0 +1,33 @@
+.write-code {
+  display: none;
+  text-align: center; }
+
+.header {
+  height: 600px;
+  background-color: #725486; }
+  .header .icon-finder {
+    margin-top: 15%;
+    width: 200px;
+    height: 200px; }
+
+.search .text-code {
+  display: inline-block;
+  width: 90%;
+  margin-top: -100px;
+  background-color: #FFF;
+  border-radius: 5%;
+  color: #725486; }
+
+.numbers .mask-number {
+  width: 75%;
+  padding-left: 80px;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 100px;
+  color: #725486;
+  background-color: #ccc; }
+
+.code-text {
+  color: #7b7b7b; }
+
+/*# sourceMappingURL=insert-code.css.map */

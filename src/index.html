@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validador Sócio Torcedor</title>
+	<link rel="stylesheet" type="text/css" href="./css/init-view.css">
+	<link rel="stylesheet" type="text/css" href="./css/choose-validation.css">
+	<link rel="stylesheet" type="text/css" href="./css/insert-code.css">
+</head>
+<body>
+	<div class="container">
+		<div class="init-view">
+			<div class="image-topo">
+				<img src="./img/image-logo.png" class="image-logo image">
+				<img src="./img/image-center.png" class="image-intro image">
+			</div>
+			<div class="text-inital">
+				<span class="text-intro">Validador <br>de Cupons</span>
+				<p class="text-intro" id="text-cupons">Valide cupons de forma prática</p>
+			</div>
+			<div class="button-init button">
+				<span id="start-validation">COMEÇAR</span>
+			</div>
+		</div>
+		<div class="choose-validation">
+			<div class="text-top">
+				<span id="text-validator">Validador de Cupom</span>
+				<p class="text-choose">Por favor, escolha o metodo que <br> deseja validar o cupom.</p>
+				<span class="text-choose"> . . . . . . . . . </span>
+			</div>
+			<div class="modes-validation">
+				<div class="validation validation-code">
+					<div class="icon">
+						<img src="./img/find-by-code.png" class="icon-find">
+					</div>
+					<div class="text">
+						<span>VALIDAR <br> VIA CÓDIGO</span>
+					</div>
+				</div>
+				<div class="validation validation-qr">
+					<div class="icon">
+						<img src="./img/find-by-qr.png" class="icon-find">
+					</div>
+					<div class="text">
+						<span>VALIDAR <br> VIA QR CODE</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="write-code">
+			<div class="header">
+				<div class="icon-code">
+					<img src="./img/icon-find-code.png" class="icon-finder">
+				</div>
+			</div>
+			<div class="search">
+				<div class="text-code">
+					<p>Via código</p>
+					<p class="code-text">Digite os 4 primeiros números</p>
+				</div>
+				<div class="numbers">
+					<input type="text" class="first-numbers mask-number" maxlength="4" />
+				</div>
+				<div class="code-text">
+					<p>Digite os 4 ultimos números</p>
+				</div>
+				<div class="numbers">
+					<input type="text" class="last-numbers mask-number" maxlength="4" />
+				</div>
+				<div class="button-validation button">
+					<span id="start-validation">VALIDAR</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/app.min.js"></script>
+</body>
+</html>

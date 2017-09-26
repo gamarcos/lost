@@ -1,0 +1,38 @@
+.choose-validation {
+	display: none;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #725486;
+}
+.text-top {
+	padding-top: 15%;
+	margin-bottom: 15%;
+
+	.text-choose {
+	font-size: 0.8em;
+	color: #b285d1;	
+	}
+}
+.modes-validation {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 9%;
+
+	.icon-find {
+	width: 200px;
+	height: 200px;
+	}
+	.validation {
+	margin-bottom: 10%;
+	padding: 70px;
+	align-items: center;
+	display: flex;	
+	border: solid 5px #FFFFFF;
+	border-radius: 2%;
+
+		.text {
+		margin-left: 30px;
+		text-align: left;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.choose-validation {
+  display: none;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #725486; }
+
+.text-top {
+  padding-top: 15%;
+  margin-bottom: 15%; }
+  .text-top .text-choose {
+    font-size: 0.8em;
+    color: #b285d1; }
+
+.modes-validation {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 9%; }
+  .modes-validation .icon-find {
+    width: 200px;
+    height: 200px; }
+  .modes-validation .validation {
+    margin-bottom: 10%;
+    padding: 70px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    border: solid 5px #FFFFFF;
+    border-radius: 2%; }
+    .modes-validation .validation .text {
+      margin-left: 30px;
+      text-align: left; }
+
+/*# sourceMappingURL=choose-validation.css.map */
