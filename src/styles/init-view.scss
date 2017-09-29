@@ -16,6 +16,7 @@ body {
 }
 .header-principal {
 	display: flex;
+	margin-top: 15%;
 	justify-content: center;
 	
 	#image-logo {
@@ -31,10 +32,13 @@ body {
 	}
 }
 .text-subtitle {
-	font-size: 0.6em;
+	font-size: 0.75em;
 	color: #7d7d7d;
+	margin: 10px 0 5px 0;
 }
 .user-login {
+	margin-top: 10%;
+	
 	.form-user-login{
 		width: 600px;
 		margin: 0 auto;
@@ -67,6 +71,7 @@ body {
 		.send-login {
 			input {
 				width: 600px;
+				margin: 50px 0 25px 0;
 			height: 120px;
 				font-size: 0.6em;
 				border-radius: 10px;
@@ -78,9 +83,11 @@ body {
 }
 
 .register {
+	margin-top: 50px;
 	input {
 		width: 600px;
 		height: 120px;
+		margin-bottom: 20px;
 		font-size: 0.6em;
 		border-radius: 5px;
 		color: #725486;

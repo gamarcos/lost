@@ -1,10 +1,4 @@
-function setHeight() {
-	var max_height = screen.height;
-	var content 			= document.querySelector(".container");
-	content.style.height = max_height;
-}
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {	
 
 	var init 				= document.querySelector(".init-view");
 	var validation 			= document.querySelector(".choose-validation");
@@ -12,8 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	var validation_code 	= document.querySelector(".validation-code");
 	var number_validation 	= document.querySelector(".write-code");
 	var validation_voucher	= document.querySelector(".button-validation");
-
-
 
 	validation_code.addEventListener("click", function() {
 		validation.style.display = "none";

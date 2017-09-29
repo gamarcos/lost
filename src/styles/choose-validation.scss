@@ -1,39 +1,52 @@
 .choose-validation {
 	display: inherit;
-	color: #FFFFFF;
+	color: #9a70b7;
 	text-align: center;
-	background-color: #725486;
+	background-color: #ffffff;
 }
 .text-top {
-	padding-top: 15%;
-	margin-bottom: 15%;
+	padding-top: 10%;
+	margin-bottom: 10%;
+		
+		#text-validator {
+			font-size: 2em;
+		}
 
 	.text-choose {
-	font-size: 0.8em;
-	color: #b285d1;	
+	font-size: 0.7em;
+	color: #7d7d7d;	
 	}
 }
 .modes-validation {
 	
 	width: 80%;
 	margin: 0 auto;
-	padding-bottom: 16%;
+	padding-bottom: 10%;
 
 	.icon-find {
 	width: 200px;
 	height: 200px;
 	}
+
 	.validation {
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	padding: 70px;
 	align-items: center;
 	display: flex;	
-	border: solid 5px #FFFFFF;
+	border: solid 5px #9a70b7;
 	border-radius: 2%;
+	
 
 		.text {
+		color: #9a70b7;
 		margin-left: 30px;
 		text-align: left;
 		}
 	}
 }
+.validation-qr {
+		background-color: #9a70b7;
+		span {
+			color: #ffffff;
+		}
+	}

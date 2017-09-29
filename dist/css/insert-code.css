@@ -2,32 +2,57 @@
   display: none;
   text-align: center; }
 
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .user img {
+    width: 50px;
+    margin: 70px; }
+
 .header {
-  height: 600px;
-  background-color: #725486; }
-  .header .icon-finder {
-    margin-top: 15%;
-    width: 200px;
-    height: 200px; }
+  height: 400px;
+  margin-top: 8%;
+  background-color: #ffffff; }
+  .header span {
+    font-size: 1.5em;
+    margin-bottom: 40px; }
+  .header #text-now {
+    margin-bottom: 50px;
+    color: #9a70b7; }
 
 .search .text-code {
-  display: inline-block;
-  width: 90%;
-  margin-top: -100px;
-  background-color: #FFF;
-  border-radius: 5%;
-  color: #725486; }
+  display: inline-block; }
+  .search .text-code p {
+    font-size: 0.9em;
+    color: #7d7d7d; }
 
 .numbers .mask-number {
   width: 75%;
   padding-left: 80px;
   font-size: 2em;
-  text-align: center;
   letter-spacing: 100px;
-  color: #725486;
-  background-color: #ccc; }
+  border: solid 3px #9a70b7;
+  border-radius: 10px;
+  color: #725486; }
 
-.code-text {
-  color: #7b7b7b; }
+.numbers .last-numbers {
+  margin-bottom: 20%; }
+
+.button-send-voucher {
+  position: fixed;
+  width: 99%;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  margin: 5px;
+  font-size: 0.9em;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #725486; }
 
 /*# sourceMappingURL=insert-code.css.map */

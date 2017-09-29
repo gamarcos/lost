@@ -1,25 +1,27 @@
 .choose-validation {
   display: inherit;
-  color: #FFFFFF;
+  color: #9a70b7;
   text-align: center;
-  background-color: #725486; }
+  background-color: #ffffff; }
 
 .text-top {
-  padding-top: 15%;
-  margin-bottom: 15%; }
+  padding-top: 10%;
+  margin-bottom: 10%; }
+  .text-top #text-validator {
+    font-size: 2em; }
   .text-top .text-choose {
-    font-size: 0.8em;
-    color: #b285d1; }
+    font-size: 0.7em;
+    color: #7d7d7d; }
 
 .modes-validation {
   width: 80%;
   margin: 0 auto;
-  padding-bottom: 16%; }
+  padding-bottom: 10%; }
   .modes-validation .icon-find {
     width: 200px;
     height: 200px; }
   .modes-validation .validation {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     padding: 70px;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -28,10 +30,16 @@
     display: -ms-flexbox;
     -js-display: flex;
     display: flex;
-    border: solid 5px #FFFFFF;
+    border: solid 5px #9a70b7;
     border-radius: 2%; }
     .modes-validation .validation .text {
+      color: #9a70b7;
       margin-left: 30px;
       text-align: left; }
+
+.validation-qr {
+  background-color: #9a70b7; }
+  .validation-qr span {
+    color: #ffffff; }
 
 /*# sourceMappingURL=choose-validation.css.map */
