@@ -8,17 +8,41 @@
 </head>
 <body>
 	<div class="container">
-		<div class="init-view">
-			<div class="image-topo">
-				<img src="./img/image-logo.png" class="image-logo image">
-				<img src="./img/image-center.png" class="image-intro image">
+		<div class="login-view">
+			<div class="header-principal">
+				<div class="img-validator">
+					<img src="./img/icon-login-page.png" id="image-logo"/>
+				</div>
+				<div id="txt-validation">
+					<span>Validador <br> de Cupons </span>
+				</div>
 			</div>
-			<div class="text-inital">
-				<span class="text-intro">Validador <br>de Cupons</span>
-				<p class="text-intro" id="text-cupons">Valide cupons de forma prática</p>
+			<div>
+				<span class="text-subtitle">Valide cupons de forma prática</span>
 			</div>
-			<div class="button-init button">
-				<span id="start-validation">COMEÇAR</span>
+			<div class="user-login">
+				<form action="" class="form-user-login" method="post">
+					<div class="login">
+						<label for="" class="text-label text-subtitle">Email</label><br>
+						<input class="infos-login" type="email" required />
+					</div>
+					<div class="login">
+						<label for="" class="text-label text-subtitle">Senha</label><br>
+						<input class="infos-login" type="password" name="password" required/>
+					</div>
+					<div id="checkbox">
+						<input type="checkbox" name="user-checkbox" id="checkbox-user"> <span class="text-subtitle">Manter-me logado</span>
+					</div>
+					<div class="send-login">
+						<input type="submit" name="login" value="LOGIN">
+					</div>
+				</form>
+			</div>
+			<div>
+				<span class="text-subtitle">OU</span>
+			</div>
+			<div class="register">
+				<input type="button" name="register" value="CRIAR SUA CONTA">
 			</div>
 		</div>
 		<div class="choose-validation">

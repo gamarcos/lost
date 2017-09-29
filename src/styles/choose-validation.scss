@@ -1,5 +1,5 @@
 .choose-validation {
-	display: none;
+	display: inherit;
 	color: #FFFFFF;
 	text-align: center;
 	background-color: #725486;
@@ -14,9 +14,10 @@
 	}
 }
 .modes-validation {
+	
 	width: 80%;
 	margin: 0 auto;
-	padding-bottom: 9%;
+	padding-bottom: 16%;
 
 	.icon-find {
 	width: 200px;

@@ -10,54 +10,82 @@ body {
 	font-family: Arial, Tahoma, Verdana;
 	color: #000000;
 }
-.init-view {
-	display: inherit;
-	position: relative;
+.login-view {
+	display: none;
 	text-align: center;
 }
-.image-topo {
-	.image-logo {	
-		width: 200px;
-		height: 120px;
-		margin: 5%;
+.header-principal {
+	display: flex;
+	justify-content: center;
+	
+	#image-logo {
+		width: 125px;
+		height: auto;
 	}
-	.image-intro {
-	width: 80%;
-	height: 60%;
+
+	#txt-validation {
+		margin: 3% 0 0 3%;
+		font-size: 1em;
+		text-align: left;
+		color: #725486;	
 	}
 }
-.text-inital{
-	font-size: 1.4em;
-	margin-top: 1em;
-	letter-spacing: 1px;
-	font-weight: 100;
-	color: #9a70b7;
+.text-subtitle {
+	font-size: 0.6em;
+	color: #7d7d7d;
+}
+.user-login {
+	.form-user-login{
+		width: 600px;
+		margin: 0 auto;
+		
+		.login {
+			width: 100%;
+			text-align: left;
+			
+			.infos-login {
+				width: 100%;
+				height: 120px;
+				font-size: 0.7em;
+				padding-left: 20px;
+				color: #7d7d7d;
+				border: solid 2px #7d7d7d;
+				border-radius: 10px;
+			}
+		}
 
-		@media(min-width: 768px) {
-		#text-cupons {
-		margin-bottom: 15%;
-		font-size: 0.7em;
-		color: #7b7b7b;
+		#checkbox {
+			max-width: 600px;
+			text-align: left;
+			#checkbox-user {
+				text-align: left;
+				width: 30px;
+				height: 30px;
+			}
+		}
+
+		.send-login {
+			input {
+				width: 600px;
+			height: 120px;
+				font-size: 0.6em;
+				border-radius: 10px;
+				color: #FFF;
+				background-color: #725486;
+			}
 		}
 	}
-		#text-cupons {
-		font-size: 0.7em;
-		color: #7b7b7b;
-	}
 }
-.button {
-	position: fixed;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-	height: 2.5em;
 
-	background-color:#9a70b7;
-		#start-validation {
-		font-size: 0.8em;
-		font-weight: normal;
-		line-height: 120px;
-		text-decoration: none;
-		color: #FFFFFF;
+.register {
+	input {
+		width: 600px;
+		height: 120px;
+		font-size: 0.6em;
+		border-radius: 5px;
+		color: #725486;
+		border: solid 2px #725486;
+		border-radius: 10px;
+		background-color: #FFF
 	}
 }
