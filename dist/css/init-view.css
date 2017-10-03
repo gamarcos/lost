@@ -11,7 +11,7 @@ body {
   color: #000000; }
 
 .login-view {
-  display: none;
+  display: inherit;
   text-align: center; }
 
 .header-principal {
@@ -69,17 +69,29 @@ body {
       color: #FFF;
       background-color: #725486; }
 
+.forgot {
+  margin-top: 15px;
+  font-size: 0.7em;
+  text-decoration: none; }
+
+/*
 .register {
-  margin-top: 50px; }
-  .register input {
-    width: 600px;
-    height: 120px;
-    margin-bottom: 20px;
-    font-size: 0.6em;
-    border-radius: 5px;
-    color: #725486;
-    border: solid 2px #725486;
-    border-radius: 10px;
-    background-color: #FFF; }
+	margin-top: 50px;
+	input {
+		width: 600px;
+		height: 120px;
+		margin-bottom: 20px;
+		font-size: 0.6em;
+		border-radius: 5px;
+		color: #725486;
+		border: solid 2px #725486;
+		border-radius: 10px;
+		background-color: #FFF
+	}
+}
+*/
+.swal-modal {
+  width: 700px;
+  height: 500px; }
 
 /*# sourceMappingURL=init-view.css.map */

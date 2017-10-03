@@ -11,7 +11,7 @@ body {
 	color: #000000;
 }
 .login-view {
-	display: none;
+	display: inherit;
 	text-align: center;
 }
 .header-principal {
@@ -81,7 +81,12 @@ body {
 		}
 	}
 }
-
+.forgot {
+	margin-top: 15px;
+	font-size: 0.7em;
+	text-decoration: none;
+}
+/*
 .register {
 	margin-top: 50px;
 	input {
@@ -95,4 +100,9 @@ body {
 		border-radius: 10px;
 		background-color: #FFF
 	}
+}
+*/
+.swal-modal {
+	width: 700px;
+	height: 500px;
 }

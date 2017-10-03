@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>Validador Sócio Torcedor</title>
+	<meta name="viewport" content="width=950, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="./css/init-view.css">
 	<link rel="stylesheet" type="text/css" href="./css/choose-validation.css">
 	<link rel="stylesheet" type="text/css" href="./css/insert-code.css">
+	<link rel="stylesheet" type="text/css" href="./css/forgot-password.css">
+	<link rel="stylesheet" type="text/css" href="./css/menu.css">
 </head>
 <body>
 	<div class="container">
@@ -38,12 +41,16 @@
 					</div>
 				</form>
 			</div>
+			<div class="forgot">
+				<span id="txt-forgot"><a href="">esqueci minha senha</a></span>
+			</div>
+			<!-- 
 			<div>
 				<span class="text-subtitle">OU</span>
 			</div>
 			<div class="register">
 				<input type="button" name="register" value="CRIAR SUA CONTA">
-			</div>
+			</div> -->
 		</div>
 		<div class="choose-validation">
 			<div class="text-top">
@@ -73,11 +80,16 @@
 		<div class="write-code">
 			<div class="user">
 				<div class="button-back">
-					<img src="./img/icon-back.png" alt="">
+					<img src="./img/icon-back.png" alt="voltar" id="back">
 				</div>
 				<div class="user-options">
-					<img src="./img/icon-options.png" alt="">
+					<img src="./img/icon-options.png" alt="menu" id="menu">
 				</div>
+			</div>
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="#">Mudar Senha</a>
+			  <a href="#">sair</a>
 			</div>
 			<div class="header">
 				<div class="text-header">
@@ -107,6 +119,20 @@
 			</form>
 		</div>
 	</div>
+	<div class="forgot-password">
+		<div class="title">
+			<h2>Esqueci minha senha</h2>
+		</div>
+		<div class="data-new-password">
+			<form action="" id="send-email">
+				<label for="" class="text-subtitle">Email</label>
+				<input type="email" id="email-password" required>
+				<input type="submit" value=" Enviar" id="btn-send-email">
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script type="text/javascript" src="./js/app.min.js"></script>
 </body>
 </html>
